@@ -1,5 +1,5 @@
 Summary:	mkcomposecache application - create global Compose cache files
-Summary(pl.UTF-8):   Aplikacja mkcomposecache - tworzenie globalnych plików cache Compose
+Summary(pl.UTF-8):	Aplikacja mkcomposecache - tworzenie globalnych plików cache Compose
 Name:		xorg-app-mkcomposecache
 Version:	1.2
 Release:	1

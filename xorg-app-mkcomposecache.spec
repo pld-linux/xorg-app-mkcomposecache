@@ -1,5 +1,5 @@
 Summary:	mkcomposecache application - create global Compose cache files
-Summary(pl):	Aplikacja mkcomposecache - tworzenie globalnych plików cache Compose
+Summary(pl.UTF-8):   Aplikacja mkcomposecache - tworzenie globalnych plikÃ³w cache Compose
 Name:		xorg-app-mkcomposecache
 Version:	1.2
 Release:	1
@@ -22,12 +22,12 @@ Compose cache files help with application startup times and memory
 usage, especially in locales with large Compose tables (e.g. all UTF-8
 locales).
 
-%description -l pl
-mkcomposecache s³u¿y do tworzenia globalnych (ogólnosystemowych)
-plików cache Compose.
+%description -l pl.UTF-8
+mkcomposecache sÅ‚uÅ¼y do tworzenia globalnych (ogÃ³lnosystemowych)
+plikÃ³w cache Compose.
 
-Pliki cache Compose poprawiaj± czas uruchamiania aplikacji i
-wykorzystanie pamiêci, szczególnie przy lokalizacjach z du¿ymi
+Pliki cache Compose poprawiajÄ… czas uruchamiania aplikacji i
+wykorzystanie pamiÄ™ci, szczegÃ³lnie przy lokalizacjach z duÅ¼ymi
 tablicami Compose (np. wszystkimi lokalizacjami UTF-8).
 
 %prep

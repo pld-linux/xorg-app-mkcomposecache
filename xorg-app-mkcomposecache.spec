@@ -1,18 +1,20 @@
 Summary:	mkcomposecache application - create global Compose cache files
 Summary(pl.UTF-8):	Aplikacja mkcomposecache - tworzenie globalnych plików cache Compose
 Name:		xorg-app-mkcomposecache
-Version:	1.2.1
+Version:	1.2.2
 Release:	1
 License:	MIT
 Group:		X11/Applications
-Source0:	http://xorg.freedesktop.org/releases/individual/app/mkcomposecache-%{version}.tar.bz2
-# Source0-md5:	25b774e1b64833d0cdc00663931efc73
-URL:		http://xorg.freedesktop.org/
-BuildRequires:	autoconf >= 2.53
+Source0:	https://xorg.freedesktop.org/releases/individual/app/mkcomposecache-%{version}.tar.xz
+# Source0-md5:	29b46db579b5edffbae050a89f318ad3
+URL:		https://xorg.freedesktop.org/
+BuildRequires:	autoconf >= 2.60
 BuildRequires:	automake
 BuildRequires:	pkgconfig >= 1:0.19
+BuildRequires:	tar >= 1:1.22
 BuildRequires:	xorg-lib-libX11-devel
-BuildRequires:	xorg-util-util-macros >= 1.3
+BuildRequires:	xorg-util-util-macros >= 1.8
+BuildRequires:	xz
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -53,6 +55,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc AUTHORS COPYING ChangeLog README
+%doc AUTHORS COPYING ChangeLog README.md
 %attr(755,root,root) %{_sbindir}/mkcomposecache
 %{_mandir}/man8/mkcomposecache.8*
